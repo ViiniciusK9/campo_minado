@@ -7,9 +7,9 @@ import utils
 root = Tk()
 # Override the settings of the window
 root.configure(bg="gray")
-root.geometry(f'{settings.WIDTH}x{settings.HEIGHT}')
+root.geometry(f"{settings.WIDTH}x{settings.HEIGHT}")
 root.resizable(False, False)
-root.title("Campo Minado do Vinizinho gameplay")
+root.title("Campo Minado")
 
 top_frame = Frame(
     root,
