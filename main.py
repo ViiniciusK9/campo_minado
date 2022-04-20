@@ -9,7 +9,7 @@ root = Tk()
 root.configure(bg="gray")
 root.geometry(f'{settings.WIDTH}x{settings.HEIGHT}')
 root.resizable(False, False)
-root.title("Campo Minado")
+root.title("Campo Minado do Vinizinho gameplay")
 
 top_frame = Frame(
     root,
@@ -42,7 +42,7 @@ center_frame.place(
 
 for x in range(settings.GRID_SIZE):
     for y in range(settings.GRID_SIZE):
-        c = Cell()
+        c = Cell(x, y)
         c.create_btn_object(center_frame)
         c.cell_btn_object.grid(
             column=x,
@@ -50,7 +50,7 @@ for x in range(settings.GRID_SIZE):
         )
 
 
-
+Cell.randomize_mines()
 
 # Run the window
 root.mainloop()
