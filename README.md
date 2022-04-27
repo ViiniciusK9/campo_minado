@@ -8,11 +8,11 @@
 <h1 align="center">Campo Minado Game</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/ViiniciusK9/campo_minado_game?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/ViiniciusK9/campo_minado?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/ViiniciusK9/campo_minado_game?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/ViiniciusK9/campo_minado?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ViiniciusK9/campo_minado_game?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ViiniciusK9/campo_minado?color=56BEB8">
 
 </p>
 
